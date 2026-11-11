@@ -7,18 +7,20 @@
 
 /* Begin PBXBuildFile section */
 		A10000000000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* AppDelegate.swift */; };
+		A10000000000000000000003 /* Insomnia.icns in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* Insomnia.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A20000000000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A20000000000000000000003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A20000000000000000000004 /* Insomnia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Insomnia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A20000000000000000000005 /* Insomnia.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Insomnia.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		A30000000000000000000001 = {
 			isa = PBXGroup;
-			children = (A30000000000000000000002 /* Insomnia */, A30000000000000000000003 /* Products */);
+			children = (A30000000000000000000002 /* Insomnia */, A30000000000000000000004 /* Resources */, A30000000000000000000003 /* Products */);
 			sourceTree = "<group>";
 		};
 		A30000000000000000000002 /* Insomnia */ = {
@@ -27,6 +29,7 @@
 			path = Insomnia;
 			sourceTree = "<group>";
 		};
+		A30000000000000000000004 /* Resources */ = {isa = PBXGroup; children = (A20000000000000000000005 /* Insomnia.icns */); path = Resources; sourceTree = "<group>"; };
 		A30000000000000000000003 /* Products */ = {
 			isa = PBXGroup;
 			children = (A20000000000000000000004 /* Insomnia.app */);
@@ -39,7 +42,7 @@
 		A40000000000000000000001 /* Insomnia */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A70000000000000000000002;
-			buildPhases = (A50000000000000000000001);
+			buildPhases = (A50000000000000000000001, A50000000000000000000002);
 			buildRules = ();
 			dependencies = ();
 			name = Insomnia;
@@ -65,6 +68,10 @@
 			targets = (A40000000000000000000001 /* Insomnia */);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50000000000000000000002 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000003 /* Insomnia.icns in Resources */); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A50000000000000000000001 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A10000000000000000000001 /* AppDelegate.swift in Sources */); runOnlyForDeploymentPostprocessing = 0; };

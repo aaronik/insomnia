@@ -1,5 +1,7 @@
 # Insomnia
 
+<img src="Resources/Insomnia.png" alt="Insomnia green switch app icon" width="128">
+
 A tiny native macOS menu bar switch that keeps your display and Mac awake. Gray with the knob on the left means **off**; green with the knob on the right means **on**. Click to toggle; right-click for **Quit Insomnia**. There is no Dock icon or visible app name in the menu bar.
 
 ## Requirements
@@ -25,7 +27,7 @@ open -g ~/Applications/Insomnia.app
 
 You can add the installed app in **System Settings → General → Login Items** to launch at login. To update, quit Insomnia, rebuild, and replace the installed app. Don't launch both copies at once.
 
-This repository distributes source code, not a notarized binary. `build.sh` creates an ad-hoc-signed app bundle locally.
+This repository distributes source code, not a notarized binary. `build.sh` creates an ad-hoc-signed app bundle locally. The bundled green-switch app icon appears in Finder and Spotlight; the menu bar retains its smaller live on/off switch.
 
 ## Build and checks
 
